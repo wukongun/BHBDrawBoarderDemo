@@ -33,21 +33,21 @@
 //{
 //    self = [super initWithFrame:frame];
 //    if (self) {
-//        
+//
 //        CAShapeLayer * brownRectLayer = [CAShapeLayer layer];
 //        brownRectLayer.frame = CGRectMake(0, 0, frame.size.width, frame.size.height);
 //        UIBezierPath * path = [UIBezierPath bezierPathWithRect:CGRectMake(0, 0, frame.size.width, frame.size.height)];
 //        brownRectLayer.path = path.CGPath;
 //        brownRectLayer.fillColor = [UIColor brownColor].CGColor;
 //        [self.layer addSublayer:brownRectLayer];
-//        
+//
 //        CAShapeLayer * whiteRectLayer = [CAShapeLayer layer];
 //        whiteRectLayer.frame = CGRectMake(0, 0, frame.size.width, frame.size.height);
 //        UIBezierPath * path1 = [UIBezierPath bezierPathWithRect:CGRectMake(frame.size.width / 2 - 25, frame.size.height / 2 - 25, 50, 50)];
 //        whiteRectLayer.path = path1.CGPath;
 //        whiteRectLayer.fillColor = [UIColor whiteColor].CGColor;
 //        [self.layer addSublayer:whiteRectLayer];
-//        
+//
 //    }
 //    return self;
 //}
